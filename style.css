@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #B6FFFA;
+}
+
+h1{
+    margin-top: 50px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container{
+    text-align: left;
+    border: 0;
+    border-radius: 15px;
+    width: 440px;
+    margin: 30px auto;
+    background-color: #98E4FF;
+}
+
+.container input{
+    width: 400px;
+    margin: 20px;
+    margin-bottom: 15px;
+    height: 40px;
+    border: 0;
+    border-radius: 20px;
+    background-color:#F8F7ED;    
+    text-align: center;
+}
+
+.container input:focus{
+    outline: 0;
+}
+
+
+.option{
+    display: flex;
+    margin: 0 20px;
+}
+
+.option .fromIndex{
+    flex: 1;
+
+}
+
+.option .toIndex{
+    flex: 1;
+}
+
+svg{
+    flex: 1;
+}
+
+select{
+    margin-top: 5px;
+    width: 125px;
+    height: 40px;
+    border:0;
+    border-radius: 20px;
+    background-color: #80B3FF;
+}
+
+button{
+    width: 400px;
+    margin: 5px 20px 20px;
+    height: 40px;
+    border:0;
+    border-radius: 20px;
+    background-color:#687EFF;  
+    cursor: pointer;  
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+
+label{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+}
+
+footer{
+    margin-top: 100px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .6);
+}
+
+footer .line{
+    border: 1px solid #A6A6A6;
+    width: 100%;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+p{
+    font-family: 'Jost', sans-serif; 
+}
+
+a{
+    text-decoration: none;
+}
+option{
+    text-align: center;
+}
+
+span{
+    color: red;
+}
+
+.twitter svg:hover path {
+    fill: #00acee;
+    transition: all ease 0.3s;
+}
+
+.instagram svg:hover path {
+    fill: #ff1e00;
+    transition: all ease 0.3s;
+}
+
+.linkedin svg:hover path {
+    fill: #0072b1 ;
+    transition: all ease 0.3s;
+}
+
+.github svg:hover path {
+    fill: #ffffff;
+    transition: all ease 0.3s;
+}
+
+
+@media all and (max-width : 455px){
+   body{
+      text-align: center;
+   }
+
+   .container{
+    width: 350px;
+   }
+
+   .container input{
+    width: 300px;
+    height: 40px;
+    padding: 3px;
+    margin: 30px 20px 20px 20px;
+   }
+
+   .option{
+    display: block;
+   }
+
+   select{
+    width: 300px;
+    height: 40px;
+   }
+
+   button{
+    margin: 10px 20px 40px 20px;
+    width: 300px;
+    height: 40px;
+   }
+
+   footer{
+    margin-top: 0;
+   }
+
+   .line{
+    visibility: hidden;
+   }
+
+   .option svg{
+    visibility: hidden;
+   }
+
+   h1{
+    font-size: 20px;
+   }
+}
