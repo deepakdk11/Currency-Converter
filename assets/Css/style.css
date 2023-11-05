@@ -89,7 +89,6 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    margin-top: 100px;
     text-align: center;
     background-color: rgba(255, 255, 255, .6);
 }
@@ -144,6 +143,7 @@ span{
 
    .container{
     width: 350px;
+    margin-bottom: 20px;
    }
 
    .container input{
@@ -169,7 +169,7 @@ span{
    }
 
    footer{
-    margin-top: 0;
+    margin-top: 50px;
    }
 
    .line{
@@ -181,6 +181,7 @@ span{
    }
 
    h1{
+    margin-top: 30px;
     font-size: 20px;
    }
 }
