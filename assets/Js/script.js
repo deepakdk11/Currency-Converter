@@ -4,6 +4,10 @@ const btn = document.querySelector("button");
 const select = document.querySelectorAll("select");
 const body = document.querySelector("body");
 const reject = document.querySelector(".reject");
+const copy = document.querySelector(".copyright")
+
+const year = new Date().getFullYear()
+copy.innerHTML = `Copyright - &copy; ${year} | All rights reserved`
 
 const link = fetch('https://api.frankfurter.app/currencies')
 link.then((respones) => {

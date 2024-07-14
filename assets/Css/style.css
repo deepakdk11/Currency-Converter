@@ -65,6 +65,7 @@ select{
     border:0;
     border-radius: 20px;
     background-color: #80B3FF;
+    cursor: pointer;
 }
 
 button{
